@@ -206,75 +206,8 @@ MerchantMitra also helps merchants keep track of products and maintain customer 
 ## System Architecture
 
 The following diagram shows how the different parts of MerchantMitra work together.
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/43845073-489d-4696-8efd-d622261079b5" />
 
-```mermaid
-flowchart TB
-    subgraph USERS["Users"]
-        M[Merchant]
-        C[Customer]
-    end
-
-    subgraph FRONTEND["Frontend - React.js"]
-        UI[Merchant Dashboard]
-        BILL[Billing and Cart]
-        INV[Inventory Management]
-        ANA[Analytics Dashboard]
-        VOICE[Voice Interface]
-    end
-
-    subgraph BACKEND["Backend - Node.js and Express"]
-        API[REST API]
-        AUTH[Authentication]
-        ORDER[Order and Billing]
-        PAY[Payment Verification]
-        STOCK[Inventory Management]
-        INSIGHT[Business Analytics]
-        AI[AI Assistant]
-    end
-
-    subgraph SERVICES["External Services"]
-        UPI[UPI Payment Provider]
-        GEMINI[Gemini API]
-        SARVAM[Sarvam AI]
-    end
-
-    subgraph DATABASE["Database"]
-        DB[(MongoDB)]
-        PRODUCTS[Products and Stock]
-        TX[Orders and Transactions]
-    end
-
-    M --> UI
-    C --> UPI
-
-    UI --> BILL
-    UI --> INV
-    UI --> ANA
-    UI --> VOICE
-
-    BILL --> API
-    INV --> API
-    ANA --> API
-    VOICE --> API
-
-    API --> AUTH
-    API --> ORDER
-    API --> PAY
-    API --> STOCK
-    API --> INSIGHT
-    API --> AI
-
-    PAY <--> UPI
-    AI <--> GEMINI
-    VOICE <--> SARVAM
-
-    ORDER --> DB
-    PAY --> TX
-    STOCK --> PRODUCTS
-    INSIGHT --> DB
-    DB --- PRODUCTS
-    DB --- TX
-```
 
 ## Technology Stack
 
