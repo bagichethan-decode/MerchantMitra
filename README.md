@@ -228,9 +228,7 @@ The following diagram shows how the different parts of MerchantMitra work togeth
 
 *This table describes the proposed technology stack. Integrations will be considered implemented only after they have been connected and tested.*
 
-
 ## Our Goal
-
 We are building MerchantMitra to make everyday business management easier for small shop owners.
 
 A merchant should be able to understand how much the shop sells, which products perform well, what needs restocking and where the business can improve — without having to manage everything separately.
