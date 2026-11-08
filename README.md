@@ -8,7 +8,6 @@ A shop owner manages products, prepares bills, accepts payments, tracks stock an
 
 The idea is simple: **help merchants not only collect money, but also understand and manage their business.**
 
----
 ## The Problem
 
 Many small shop owners still manage different parts of their business separately.
@@ -57,8 +56,6 @@ Merchants can interact with the assistant using supported Indian languages.
 **Customer Engagement**
 
 The platform can support loyalty rewards, coupons and repeat-customer engagement with appropriate customer consent.
-
----
 
 ## How MerchantMitra Works
 
