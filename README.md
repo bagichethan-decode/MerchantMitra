@@ -9,7 +9,6 @@ A shop owner manages products, prepares bills, accepts payments, tracks stock an
 The idea is simple: **help merchants not only collect money, but also understand and manage their business.**
 
 ---
-
 ## The Problem
 
 Many small shop owners still manage different parts of their business separately.
