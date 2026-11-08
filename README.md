@@ -19,7 +19,6 @@ Many small shop owners still manage different parts of their business separately
 - Merchants often lack clear information about their daily and monthly business performance.
 - Some merchants find complicated digital platforms difficult to use, especially when they prefer their local language.
 
-They need something more than a payment application. They need a simple platform that helps them run their business.
 
 ## What We Are Building
 
